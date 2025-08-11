@@ -1,0 +1,25 @@
+GET http://localhost:3001/api/notes
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "POSTMAN TESTTT",
+    "important": true
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "POSTMAN TESTTT 2"
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "important" : true
+}
